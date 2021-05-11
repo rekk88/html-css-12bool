@@ -9,7 +9,7 @@
 }
 
 .container {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
 } 
 
@@ -21,7 +21,9 @@
 [class*="col-"] {
     flex: 0 0 auto;
 }
-
+@media screen  {
+    
+}
 /* 12 System */
 .col-xs {
     flex-grow: 1;
@@ -86,4 +88,12 @@
 
 .bottom-xs {
     align-items: flex-end;
+}
+/*versione desktop*/
+@media screen and (min-width: 1140px) {
+    .container{
+        width: 960px;
+    }
+
+    
 }

@@ -31,8 +31,19 @@
     /* min-height: 50px; */
     text-align: center;
     border: 1px solid black;
+    /* display: flex; */
     line-height: 200px;
+
 }
+
+/* display: flex;
+align-items: center;
+justify-content: center;
+min-height: 50px;
+background-color: #ffc0cb;
+border: 1px solid black;
+color: black; */
+
 .box-nested{
     background-color:green;
     border: 1px solid white;
